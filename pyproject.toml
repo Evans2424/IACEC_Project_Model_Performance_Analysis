@@ -4,6 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["José Evans <jpjoao24@hotmail.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -18,6 +19,8 @@ ipywidgets = "^8.1.5"
 jupyter = "^1.1.1"
 openml = "^0.15.0"
 xmltodict = "^0.14.2"
+numpy = "^1.9"
+imblearn = "^0.0"
 
 
 [tool.poetry.group.dev.dependencies]
